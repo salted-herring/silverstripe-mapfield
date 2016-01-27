@@ -148,6 +148,7 @@
 
 			getFieldValue: function(fieldName) {
 				var value = $('#'+this.attr('name')+'_'+fieldName).val();
+				
 				return value;
 			},
 

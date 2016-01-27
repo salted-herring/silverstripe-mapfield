@@ -147,12 +147,12 @@
 			},
 
 			getFieldValue: function(fieldName) {
-				var value = $('#'+this.attr('name')+'-'+fieldName).val();
+				var value = $('#'+this.attr('name')+'_'+fieldName).val();
 				return value;
 			},
 
 			setFieldValue: function(fieldName, value) {
-				$('#'+this.attr('name')+'-'+fieldName).val(value);
+				$('#'+this.attr('name')+'_'+fieldName).val(value);
 				$('.cms-edit-form').addClass('changed');
 			}
 		});
